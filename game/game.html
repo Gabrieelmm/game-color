@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <section id="modal">
+        <div id="bgModal" onclick="closeModal()"></div>
+        <div id="contentModal">
+            <button id="buttonClose" onclick="closeModal()">X</button>
+            <div id="modalPtsDiv">
+                <h2 id="tituloModal"></h2>
+                <h2>PONTOS: <h2 id="ptsModal">9999999999</h2></h2>
+            </div>
+            
+            <div id="modalTimerDiv">
+                <h2>TEMPO: <h2 id="timerModal">00:00:00</h2></h2>
+            </div>
+            
+            <button id="buttonModal"></button>
+            <button id="buttonRanking" onclick="ranking()">Adicionar ao ranking</button>
+            
+        </div>
+    </section>
+    <header id="header">
+        <div id="status">
+            <h1>PONTOS: <h1 id="points"></h1> </h1>
+            <h1>TEMPO: <h1 id="time"></h1> </h1>
+            <h1 id="msg"></h1>
+        </div>
+        <div id="buttons">
+            <button onclick="restart()">Reiniciar</button>
+            <button onclick="pause()">Pausar</button>
+        </div>
+    </header>
+    <div id="game">
+            <button id="btnPlay" onclick="start()">Toque para jogar</button>
+    </div>
+    
+    <script src="./game.js"></script>
+</body>
+</html>

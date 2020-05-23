@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Colors</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 id="tt">COLORS</h1>
+    <button id="buttonPlay"><a href="game/game.html">Start</a></button>
+    <button id="buttonInfo" onclick="openModal()">?</button>
+    <button id="rank" onclick="mostrarRanking()">R</button>
+
+    <section id="modal">
+        <div id="bgModal" onclick="closeModal()"></div>
+        <div id="contentModal">
+            <button id="buttonClose" onclick="closeModal()">X</button>
+            <h2>Informações</h2>
+            <section class="content">
+                <h3>Como jogar?</h3>
+                <p>O jogo é bem simples, basta clicar na cor correta (A cor de fundo do painel) 
+                para ganhar pontos. Caso você clique na cor errada, você perde. O desafio é acumular 
+                a maior quantidade de pontos no menor intervalo de tempo.</p>
+            </section>
+            <section class="content">
+                <h3>Sobre</h3>
+                <p>Esse jogo foi desenvolvido por Gabriel Morais utilizando Javascript, HTML e CSS.</p>
+            </section>
+            <section class="content">
+                <h3>Contatos</h3>
+                <p>GitHub</p>
+                <p>YouTube</p>
+            </section>
+            
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+ 
+</body>
+</html>

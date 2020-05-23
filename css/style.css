@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1#tt{
+    position: absolute;
+    top: 25%;
+    left: 31.5%;
+    font-size: 540%;
+    width: 37%;
+}
+
+
+button#buttonPlay{
+    border: 1px solid black;
+    width: 20%;
+    height:10%;
+    outline: none;
+    font-size: 200%;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}  
+
+button#buttonPlay:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+button#buttonInfo{
+    border: 1px solid rgb(0, 0, 0);
+    width: 5%;
+    height: 7.5%;
+    float: right;
+    margin: 1%;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 93%;
+}
+button#rank {
+    border: 1px solid rgb(0, 0, 0);
+    width: 5%;
+    height: 7.5%;
+    float: right;
+    margin: 1%;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 87%;
+}
+button#buttonInfo:hover{
+    background-color: rgb(124, 122, 124);
+    color: white;
+}
+
+div.load{
+    width: 4%;
+    height: 6%;
+    border: 1px solid black;
+    margin-left: 0.5%;   
+    float: left;
+    margin-top: 48%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+section#modal{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+div#bgModal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    pointer-events: all;
+}
+
+div#contentModal {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    top: 15%;
+    left: 25%;
+    border: 2px solid black;
+    z-index: 1;
+    overflow: scroll;
+}
+
+button#buttonClose {
+    position:absolute;
+    width: 5%;
+    height: 5%;
+    left: 93%;
+    top:2%;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+button#buttonClose:hover{
+    font-size: 25px;
+}
+section.content h3,h2{
+    text-align: center;
+    margin: 1%;
+}
+
+section.content p{
+    margin: 3%;
+    margin-top: 0%;
+    text-align: center;
+}   
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+}
+tr.indice{
+    background-color: rgb(247, 34, 34);
+}
+td{
+    font-size: 200%;
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgb(248, 29, 29);
+    padding: 5%;
+}
+td.esq{
+    font-size: 200%;
+    text-align: center;
+    margin-left: 0;
+    padding-right: 10%;
+}
+
+h2#tr{
+    margin: 4%;
+    font-size:  400%;
+}
+
+a.close{
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    float: right;
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    z-index: 1;
+}
