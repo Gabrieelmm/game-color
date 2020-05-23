@@ -9,7 +9,8 @@ But be happy! You can save your result in a local ranking.
 
 I hosted the game on a free and very top platform, after taking a look:
 
-https://neocities.org/
+link project: https://game-color.neocities.org/
+link platform: https://neocities.org/
 
 The game is in an initial state so doubts, criticisms or suggestions are very welcome.
 
